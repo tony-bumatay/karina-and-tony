@@ -1,0 +1,114 @@
+NEW UPDATE (1.03) - June 06, 2018
+=====================================================================
+1. Bug Fix: Image Divider Disappear on Chrome 67
+---------------------------------------------------------------------
+line 1369 - 1378 (style.css)
+.image-divider {
+  position:relative;
+  background-size:cover;
+  -webkit-background-size:cover;
+  background-attachment: scroll;
+  background-position:center center;
+  background-repeat:no-repeat;
+  color:#FFF;
+  -webkit-backface-visibility: hidden;	
+}
+
+NEW UPDATE (1.03) - May 13, 2016
+=====================================================================
+1. Bug Fix: Location Map Icon Not Showing
+---------------------------------------------------------------------
+Add new file:
+------------------
+js/markerlabel/markerwithlabel.js
+
+Updated Code:
+------------
+Replace:
+<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerwithlabel/src/markerwithlabel.js"></script>
+to:
+<script src="js/markerlabel/markerwithlabel.js"></script>
+
+
+NEW UPDATE (1.02) - October 30, 2015
+=====================================================================
+
+1. Bug Fix: Image Divider not shown on browser window resize
+---------------------------------------------------------------------
+Updated Code:
+------------
+line 306-314 (script.js)
+$(window).stellar({
+   horizontalScrolling: false,
+   responsive: true,
+});
+
+
+NEW UPDATE (1.01 to 1.02) - October 21, 2015
+=====================================================================
+
+1. Bug Fix: Slider Title Animation not work on IE11
+---------------------------------------------------------------------
+Updated Code:
+-----------
+line 36 (main-slider-title-animation.js):
+if( !device.tablet() && !device.mobile() || isIE11desktop() ) {
+
+
+2. Bug Fix: Flexslider Arrow being clipped at the bottom
+---------------------------------------------------------------------
+Updated Code:
+-----------
+line 966 - 969 (style.css):
+#main-slider .flex-direction-nav a {
+  z-index:4;
+  line-height:40px;
+}
+
+
+3. Prevent multiple send on rsvp form by disable submit button when the form is sending.
+---------------------------------------------------------------------
+Added Code:
+-----------
+line 1561 - 1565 (style.css):
+input[type=submit]:disabled, input[type=submit]:hover:disabled{
+   background-color:#CCC !important;
+   border:solid 1px #CCC !important;
+   color:#FFF !important;;
+}
+
+
+Added Code:
+-----------
+line 137 - 140 (rsvp.js):
+//DISABLE SUBMIT BUTTON
+var submit_value = $('input[type="submit"]#submitButton').val();
+$('input[type="submit"]#submitButton').prop('disabled', true);
+$('input[type="submit"]#submitButton').val('SENDING ...');
+
+
+Added Code:
+-----------
+line 171 - 173 (rsvp.js):
+//ENABLE SUBMIT BUTTON
+$('input[type="submit"]#submitButton').prop('disabled', false);
+$('input[type="submit"]#submitButton').val(submit_value);
+
+
+
+
+PREVIOUS UPDATE (1.01) - August 02, 2015
+=====================================================================
+1. Bug Fix: Sidebar Navigation Won't Slide Open in Safari (Video Page)
+
+Updated Code:
+- Replace Slidebar.js (inside js/slidebars folder)
+
+
+
+
+
+
+PREVIOUS UPDATE - July 13, 2015
+=====================================================================
+1. Update Documentation
