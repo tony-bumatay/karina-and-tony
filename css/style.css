@@ -480,7 +480,7 @@ img.with-border{
   	font-style: normal;
   	font-weight: normal;
   	font-size:10px;
-	content: '\e9bd';
+	/* content: '\e9bd'; */ /* This is the heart spacer in the header. Commenting it out removes the heart*/
 	color:#f0394d;
 	text-align:center;
 }
