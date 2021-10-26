@@ -1289,7 +1289,7 @@ img.with-border{
 /* 07.2.2 Section Title Wrapper					 */
 /* ----------------------------------------------*/
 .section-title{
-	margin-bottom:70px;
+	margin-bottom:20px;
 }
 
 .section-title h2{
@@ -2603,7 +2603,7 @@ footer .image-divider.fixed-height{
 	font-size:20px; 
 	color:#DCD5CE; 
 	letter-spacing:3px; 
-	margin-top:10px;
+	margin-top:450px;
 }
 
 
@@ -3457,7 +3457,7 @@ p{
 /* 07.2.2 Section Title Wrapper					 */
 /* ----------------------------------------------*/
 .section-title{
-	margin-bottom:50px; 
+	margin-bottom:20px; 
 }	
 	
 /* 07.2.4 Title-Excerpt White Box				 */
@@ -3719,6 +3719,6 @@ footer .image-divider.fixed-height{
 	font-size:15px; 
 	color:#DCD5CE; 
 	letter-spacing:3px; 
-	margin-top:10px;
+	margin-top:450px;
 }
 }
