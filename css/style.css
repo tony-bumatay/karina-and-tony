@@ -983,6 +983,22 @@ img.with-border{
 	
 }
 
+#slide-image-1{
+	background-image:url(../images/eng_shoot/landscape/TK32_1920_1080.jpg);
+}
+#slide-image-2{
+	background-image:url(../images/eng_shoot/landscape/TK21.jpg);
+}
+#slide-image-3{
+	background-image:url(../images/eng_shoot/landscape/TK48.jpg);
+}
+#slide-image-4{
+	background-image:url(../images/eng_shoot/landscape/TK41.jpg);
+}
+#slide-image-5{
+	background-image:url(../images/eng_shoot/landscape/DSC_0742.jpg);
+}
+
 /* ----------------------------------------------*/
 /* 06.4 Main Slider Slide-Video			  		 */
 /* ----------------------------------------------*/
@@ -3642,6 +3658,22 @@ p{
 /* ----------------------------------------------*/
 #rsvp-section{
 	padding: 80px 0
+}
+
+#slide-image-1{
+	background-image:url(../images/eng_shoot/portrait/TK27.jpg);
+}
+#slide-image-2{
+	background-image:url(../images/eng_shoot/portrait/TK40.jpg);
+}
+#slide-image-3{
+	background-image:url(../images/eng_shoot/portrait/TK9b.jpg);
+}
+#slide-image-4{
+	background-image:url(../images/eng_shoot/portrait/TK53.jpg);
+}
+#slide-image-5{
+	background-image:url(../images/eng_shoot/portrait/DSC_0741.jpg);
 }
 
 }
