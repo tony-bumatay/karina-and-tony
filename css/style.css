@@ -526,7 +526,7 @@ img.with-border{
 }
 
 .split-margin{
-	margin-left:80px;
+	margin-left:40px;
 }
 
 /* ----------------------------------------------*/
@@ -1236,7 +1236,7 @@ img.with-border{
 /* 07.1.1 Page Without Slider					 */
 /* ----------------------------------------------*/
 .no-slider-page #content{
-	padding:220px 0 120px 0;
+	padding:150px 0 120px 0;
 }
 
 /* 07.1.2 Page With Slider						 */
@@ -3274,7 +3274,7 @@ button.mfp-close, button.mfp-arrow {
 /* 07.1.1 Page Without Slider					 */
 /* ----------------------------------------------*/
 .no-slider-page #content{
-	padding:140px 0 80px 0;
+	padding:100px 0 80px 0;
 }
 
 /* 07.1.2 Page With Slider					 	 */
