@@ -189,7 +189,7 @@ $(document).ready(function() {
 		
 		// 04.1 Gallery - Masonry
 		//------------------------------------------------------------------------------
-		var $gallery = $('#masonry-gallery');
+		var $gallery = $('#masonry-gallery-1');
 			
 		if (device.tablet() || device.mobile()) {
 			$gallery.masonry({
@@ -202,6 +202,26 @@ $(document).ready(function() {
 		else
 		{
 			$gallery.masonry({
+				columnWidth: ".grid-sizer",
+				itemSelector: ".masonry-col",
+				gutter: ".gutter-sizer",
+				transitionDuration: "1s",
+			});
+		}
+
+		var $gallery2 = $('#masonry-gallery-2');
+			
+		if (device.tablet() || device.mobile()) {
+			$gallery2.masonry({
+				columnWidth: ".grid-sizer",
+				itemSelector: ".masonry-col",
+				gutter: ".gutter-sizer",
+				transitionDuration: 0,
+			});
+		}
+		else
+		{
+			$gallery2.masonry({
 				columnWidth: ".grid-sizer",
 				itemSelector: ".masonry-col",
 				gutter: ".gutter-sizer",
