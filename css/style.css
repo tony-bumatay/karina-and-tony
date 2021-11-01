@@ -1002,6 +1002,11 @@ img.with-border{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
 	background-position:center bottom
 }
+#marry_me_banner{
+	background-image:url(../images/gallery/marry_me_banner.jpg);
+	background-position:center;
+	height:900px;
+}
 
 /* ----------------------------------------------*/
 /* 06.4 Main Slider Slide-Video			  		 */
@@ -1242,7 +1247,7 @@ img.with-border{
 /* 07.1.2 Page With Slider						 */
 /* ----------------------------------------------*/
 .slider-title-page #content{
-	padding:120px 0;
+	padding:20px 0;
 }
 
 /* 07.1.3 Page With Banner						 */
@@ -1383,7 +1388,7 @@ img.with-border{
 /* 07.2.7 IMAGE & VIDEO DIVIDER					 */
 /* ----------------------------------------------*/
 .divider-wrapper{
-	padding:130px 0;
+	padding:20px 0;
 }
 
 .image-divider {
@@ -3681,6 +3686,10 @@ p{
 }
 #location-slide-image-1{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
+	background-position:center
+}
+#marry_me_banner{
+	background-image:url(../images/gallery/marry_me_portrait.jpg);
 	background-position:center
 }
 
