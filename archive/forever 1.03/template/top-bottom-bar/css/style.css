@@ -1323,7 +1323,7 @@ img.with-border{
 	right:0; 
 	top:-12px;
 	color:#f0394d !important; 
-	background-color:#e1dddd !important;
+	background-color:#E2D5C5 !important;
 }
 
 /* 07.2.5 Blurb Wrapper							 */
@@ -1433,8 +1433,8 @@ img.with-border{
 hr.line-divider{
 	height:2px;
 	border:none;
-	color:#e1dddd;
-	background-color:#e1dddd; 
+	color:#E2D5C5;
+	background-color:#E2D5C5; 
 	margin:50px 0
 }
 
@@ -1461,7 +1461,7 @@ hr.line-divider{
 	width:30px; 
 	height:8px;
 	display:inline-block;
-	border-top:solid 2px #e1dddd;
+	border-top:solid 2px #E2D5C5;
 }
 
 /*.left-line{
@@ -1498,7 +1498,7 @@ hr.line-divider{
 }
 
 .grey-heart{
-	color: #e1dddd;
+	color: #E2D5C5;
 	font-size:18px; 
 	margin-left:-15px; 
 	position:relative;
@@ -1637,7 +1637,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .banner-text.withlove.dark:before{
-	color:#e1dddd;
+	color:#E2D5C5;
 }
 
 .banner-text.withlove:after{
@@ -2762,7 +2762,7 @@ footer .image-divider.fixed-height{
 	border-top: 13px solid transparent;
 	border-bottom: 13px solid transparent;
 	
-	border-left: 13px solid #e1dddd;
+	border-left: 13px solid #E2D5C5;
 	float:right;
 	margin-bottom:22px;
 	margin-left:10px;
@@ -2775,7 +2775,7 @@ footer .image-divider.fixed-height{
 	border-top: 13px solid transparent;
 	border-bottom: 13px solid transparent; 
 	
-	border-right:13px solid #e1dddd; 
+	border-right:13px solid #E2D5C5; 
 	float:left;
 	margin-bottom:22px;
 	margin-right:10px;
@@ -2791,7 +2791,7 @@ footer .image-divider.fixed-height{
 	bottom:0; 
 	left:0; 
 	right:0; 
-	border-left:1px solid #e1dddd;
+	border-left:1px solid #E2D5C5;
 }
 
 #end-of-story{
