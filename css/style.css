@@ -205,8 +205,12 @@ body{
 	font-size:15px;
 }
 
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Oswald', sans-serif;
+h1,h2{
+	font-family: 'Italiana', serif;
+}
+
+h3,h4,h5,h6{
+	font-family: 'Urbanist', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -262,7 +266,7 @@ h4.inline, h5.inline, h6.inline{
 }
 
 p{
-	font-family: 'Arvo', serif;	
+	font-family: 'Urbanist', sans-serif;	
 	font-size:15px;
 	line-height:26px;
 	margin-bottom:25px;
@@ -443,7 +447,7 @@ img.with-border{
 	list-style-type:none; 
 	margin:0; 
 	padding:45px 0 0 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Urbanist', sans-serif;
 	font-size:21px;
 	z-index:1000;
 }
