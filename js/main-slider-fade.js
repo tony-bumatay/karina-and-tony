@@ -8,11 +8,11 @@
 			animation : "fade",
 			controlNav: false,
 			directionNav: true,
-			slideshowSpeed: 5000,  
-			animationSpeed:1000,
+			slideshowSpeed: 3000,  
+			animationSpeed:500,
 			pauseOnAction: false,
 			animationLoop: true, 
-			pauseOnHover: true,			
+			pauseOnHover: false,			
 		});
 	});
 	
