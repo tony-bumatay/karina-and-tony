@@ -213,6 +213,11 @@ h3,h4,h5,h6{
 	font-family: 'Urbanist', sans-serif;
 }
 
+.travel-heading {
+	font-family: 'Oswald', sans-serif;
+	font-size: 34px;
+}
+
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
 	color:#333333;
@@ -551,11 +556,11 @@ img.with-border{
 }
 
 .last-child-margin{
-	margin-right:0px;
+	margin-right:-60px;
 }
 
 .split-margin{
-	margin-left:40px;
+	margin-left:150px;
 }
 
 /* ----------------------------------------------*/
@@ -2657,11 +2662,11 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	font-size:26px; 
 	color:#E2D5C5; 
 	letter-spacing:3px; 
-	margin-top:375px;
+	padding: 425px 0px 0px 0px;
 }
 
 
