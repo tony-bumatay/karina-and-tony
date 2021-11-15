@@ -343,6 +343,9 @@ CUSTOM SECTION GENERAL
 .last-heart-divider{
 	padding: 20px 0px;
 }
+.external-link{
+	color: #0000FF;
+}
 
 /* .schedule-description{
 	text-align: justify;
@@ -1447,7 +1450,7 @@ CUSTOM SECTION GENERAL
 /* 07.2.7 IMAGE & VIDEO DIVIDER					 */
 /* ----------------------------------------------*/
 .divider-wrapper{
-	padding:20px 0;
+	padding:25px 0;
 }
 
 .image-divider {
