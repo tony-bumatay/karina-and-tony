@@ -347,6 +347,26 @@ CUSTOM SECTION GENERAL
 	color: #0000FF;
 }
 
+.responsive-iframe {
+	width: 100%;
+	height: 588px;
+}
+.about-the{
+	font-size: 18px;
+}
+.five-stars{
+	margin-top: -20px;
+	margin-bottom: -15px;
+}
+.star-card-title{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.de-icon.de-icon.medium-size{
+	width: 30px;
+}
+
 /* .schedule-description{
 	text-align: justify;
 	text-justify: inter-word;
