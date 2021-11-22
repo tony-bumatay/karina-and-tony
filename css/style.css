@@ -367,6 +367,51 @@ CUSTOM SECTION GENERAL
 	width: 30px;
 }
 
+#carousel .slides li{
+    cursor: pointer;
+}
+#carousel .slides li.flex-active-slide{
+    cursor: default;
+}
+
+.carousel-slide {
+	margin-right: 5px;
+	height: 113px;
+}
+
+.flexslider {
+	margin: 10px 0px;
+}
+
+#carousel {
+	width: 83%;
+	margin-left: 8.5%;
+}
+
+/* .slides img {
+	height: 400px;
+	width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.large-slider .slides img {
+	height: 500px;
+	width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .footer-carousel .slides img {
+	height: 120px;
+	width: auto;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
 /* .schedule-description{
 	text-align: justify;
 	text-justify: inter-word;
