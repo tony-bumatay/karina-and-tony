@@ -654,7 +654,7 @@
 										</li>
 										<li>
 											<img src="images/the_couple/betty_carousel_build_out/selfie.JPG" alt>
-											<p class="flex-caption">Many cold nights were spent working on the van in the winter of 2019/2020</p>
+											<p class="flex-caption">Many cold nights were spent working on the van in the winter of 2020/2021</p>
 										</li>
 										<li>
 											<img src="images/the_couple/betty_carousel_build_out/lights.JPG" alt>
@@ -723,6 +723,9 @@
 											<img src="images/the_couple/betty_carousel_build_out/lights.JPG" alt>
 										</li>
 										<li class="carousel-slide">
+											<img src="images/the_couple/betty_carousel_build_out/laying_vinyl.JPG" alt>
+										</li>
+										<li class="carousel-slide">
 											<img src="images/the_couple/betty_carousel_build_out/testing_bed_cushions.JPG" alt>
 										</li>
 										<li class="carousel-slide">
@@ -730,9 +733,6 @@
 										</li>
 										<li class="carousel-slide">
 											<img src="images/the_couple/betty_carousel_build_out/table_cropped.JPG" alt>
-										</li>
-										<li class="carousel-slide">
-											<img src="images/the_couple/betty_carousel_build_out/laying_vinyl.JPG" alt>
 										</li>
 										<li class="carousel-slide">
 											<img src="images/the_couple/betty_carousel_build_out/electrical.JPG" alt>
@@ -747,6 +747,44 @@
 						</div>
 					</div>
 				</div>
+				<div>
+					<h2 class="text-center">PLACES WE'VE BEEN</h3>
+					<div id="usa-state-map" class="row">
+						<img id="usa-map-image" src="images/map/usa_state_map_2.jpg">
+						<img class="pin" id="pin-1" src="images/map/red_pin.png" data-toggle="modal" data-target="#exampleModal" 
+							 data-location="Palos Verdes, CA" 
+							 data-caption="Dynamically generated caption for Palos Verdes!!!"
+							 data-image="images/venue/ogontz_lodge_and_lake.jpg">
+						<img class="pin" id="pin-2" src="images/map/red_pin.png">
+						<img class="pin" id="pin-3" src="images/map/red_pin.png">
+						
+						
+						<div class="row">
+							<div id="exampleModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+								<div class="modal-dialog" role="document">
+								  <div class="modal-content">
+									<div class="modal-header">
+									  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									  <h4 class="modal-title" id="gridSystemModalLabel"></h4>
+									</div>
+									<div class="modal-body">
+									  <div class="row">
+										<div class="col-sm-12">
+											<img id="modal-image" src="" alt>
+										</div>
+									  </div>
+									</div>
+									<div class="modal-footer">
+									  <p class="modal-caption">Some caption check it out it's a description of the photo nice!</p>
+									</div>
+								  </div><!-- /.modal-content -->
+								</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->						
+						</div>
+						
+					</div>
+				</div>
+				
 			</div> <!-- END of CONTAINER-1 -->
 		</section>
         
@@ -794,45 +832,6 @@
         <script type="text/javascript" src="js/script.js"></script>        
         <!-- Custom Additional Script -->
         <script type="text/javascript" src="js/main-slider-fade.js"></script>
-
-		<script>
-			$(function () {
-				$('#carousel').flexslider({
-					animation: "slide",
-					controlNav: false,
-					animationLoop: false,
-					slideshow: false,
-					itemWidth: 150,
-					itemMargin: 5,
-					asNavFor: '#slider'
-				});
-				$('#slider').flexslider({
-					animation: "slide",
-					controlNav: false,
-					animationLoop: false,
-					slideshow: false,
-					sync: "#carousel"
-				});
-			});
-			$(function () {
-				$('#carousel2').flexslider({
-					animation: "slide",
-					controlNav: false,
-					animationLoop: false,
-					slideshow: false,
-					itemWidth: 150,
-					itemMargin: 5,
-					asNavFor: '#slider2'
-				});
-				$('#slider2').flexslider({
-					animation: "slide",
-					controlNav: false,
-					animationLoop: false,
-					slideshow: false,
-					sync: "#carousel2"
-				});
-			});
-		</script>
-        
+		<script type="text/javascript" src="js/the-couple.js"></script>
 	</body>
 </html>
