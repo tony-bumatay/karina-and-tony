@@ -426,31 +426,251 @@ CUSTOM SECTION GENERAL
 	margin: auto;
 }
 
-#pin-1 {
-	width: 50px;
-	height: 50px;
-	position: absolute;
-    top: 349px;
-    left: 212px;
+.pin {
+	width: 12px;
+    height: 29px;
 }
-#pin-2 {
-	width: 50px;
-	height: 50px;
+
+#pin-palos-verdes {
 	position: absolute;
-	top: 0%;
-	left:0%;
+    top: 362px;
+    left: 230px;
 }
-#pin-3 {
-	width: 50px;
-	height: 50px;
+#pin-san-diego {
 	position: absolute;
-	top: 0%;
-	left:0%;
+    top: 390px;
+    left: 243px;
+}
+#pin-nashville {
+	position: absolute;
+    top: 356px;
+    left: 742px;
+}
+#pin-michigan-city {
+	position: absolute;
+	top: 242px;
+    left: 733px;
+}
+#pin-valpo {
+	position: absolute;
+	top: 252px;
+    left: 729px;
+}
+#pin-mackinac {
+	position: absolute;
+    top: 154px;
+    left: 759px;
+}
+#pin-pictured-rocks {
+	position: absolute;
+    top: 141px;
+    left: 732px;
+}
+#pin-glen-arbor {
+	position: absolute;
+    top: 172px;
+    left: 743px;
+}
+#pin-wilton {
+	position: absolute;
+    top: 221px;
+    left: 932px;
+}
+#pin-boston {
+	position: absolute;
+    top: 188px;
+    left: 962px;
+}
+#pin-nantucket {
+	position: absolute;
+    top: 206px;
+    left: 981px;
+}
+#pin-addison {
+	position: absolute;
+	top: 154px;
+    left: 921px;
+}
+#pin-camp {
+	position: absolute;
+    top: 147px;
+    left: 960px;
+}
+#pin-loon {
+	position: absolute;
+    top: 165px;
+    left: 945px;
+}
+#pin-lebanon {
+	position: absolute;
+    top: 174px;
+    left: 939px;
+}
+#pin-wildcat {
+	position: absolute;
+	top: 153px;
+    left: 947px;
+}
+#pin-sunday-river {
+	position: absolute;
+    top: 136px;
+    left: 952px;
+}
+#pin-sugarloaf {
+	position: absolute;
+    top: 123px;
+    left: 959px;
+}
+#pin-killington {
+	position: absolute;
+	top: 170px;
+    left: 927px;
+}
+#pin-parsons-island {
+	position: absolute;
+    top: 143px;
+    left: 986px;
+}
+#pin-harpswell {
+	position: absolute;
+    top: 154px;
+    left: 973px;
+}
+#pin-camden {
+	position: absolute;
+    top: 148px;
+    left: 980px;
+}
+#pin-baxter-north {
+	position: absolute;
+    top: 109px;
+    left: 977px;
+}
+#pin-baxter-south {
+	position: absolute;
+    top: 115px;
+    left: 972px;
+}
+#pin-erie {
+	position: absolute;
+    top: 222px;
+    left: 831px;
+}
+#pin-seattle {
+	position: absolute;
+    top: 72px;
+    left: 246px;
+}
+#pin-big-sur {
+	position: absolute;
+	top: 297px;
+    left: 188px;
+}
+#pin-saratoga {
+	position: absolute;
+    top: 276px;
+    left: 190px;
+}
+#pin-sequoia {
+	position: absolute;
+    top: 298px;
+    left: 230px;
+}
+#pin-kings-canyon {
+	position: absolute;
+    top: 283px;
+    left: 231px;
+}
+#pin-arches {
+	position: absolute;
+    top: 292px;
+    left: 383px;
+}
+#pin-slc {
+	position: absolute;
+    top: 243px;
+    left: 359px;
+}
+#pin-denver {
+	position: absolute;
+	top: 279px;
+    left: 461px;
+}
+#pin-copper {
+	position: absolute;
+    top: 281px;
+    left: 444px;
+}
+#pin-winter-park {
+	position: absolute;
+	top: 272px;
+    left: 449px;
+}
+#pin-bend {
+	position: absolute;
+    top: 146px;
+    left: 239px;
+}
+#pin-portland {
+	position: absolute;
+	top: 111px;
+    left: 229px;
+}
+#pin-prin {
+	position: absolute;
+    top: 300px;
+    left: 681px;
+}
+#pin-solitude {
+	position: absolute;
+	top: 252px;
+    left: 364px;
+}
+#pin-snowbird {
+	position: absolute;
+	top: 242px;
+    left: 368px;
+}
+#pin-deer-valley {
+	position: absolute;
+    top: 233px;
+    left: 368px;
+}
+#pin-mammoth {
+	position: absolute;
+    top: 269px;
+    left: 230px;
+}
+#pin-big-bear {
+	position: absolute;
+    top: 357px;
+    left: 252px;
+}
+
+.map-description{
+	text-align: center;
+	margin-bottom: 23px;
 }
 
 #exampleModal {
-	margin-top: 150px;
+	margin-top: 125px;
 	/* width: 80%; */
+}
+
+#modal-image {
+    width: auto;
+    height: 560px;
+    display: block;
+    margin: auto;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.modal-content {
+	width: 900px;
+	margin-left: -25%;
 }
 
 .modal-footer p {
@@ -1166,14 +1386,14 @@ CUSTOM SECTION GENERAL
 #index-slide-image-2{
 	background-image:url(../images/eng_shoot/landscape/TK21.jpg);
 }
-#index-slide-image-3{
+/* #index-slide-image-3{
 	background-image:url(../images/eng_shoot/landscape/TK48.jpg);
-}
+} */
 #index-slide-image-4{
 	background-image:url(../images/eng_shoot/landscape/TK41.jpg);
 }
 #index-slide-image-5{
-	background-image:url(../images/eng_shoot/landscape/DSC_0742_brightened.jpg);
+	background-image:url(../images/eng_shoot/landscape/DSC_0783.jpg);
 }
 #location-slide-image-1{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
@@ -3863,14 +4083,14 @@ CUSTOM SECTION MOBILE
 #index-slide-image-2{
 	background-image:url(../images/eng_shoot/portrait/TK40.jpg);
 }
-#index-slide-image-3{
+/* #index-slide-image-3{
 	background-image:url(../images/eng_shoot/portrait/TK9b.jpg);
-}
+} */
 #index-slide-image-4{
 	background-image:url(../images/eng_shoot/portrait/TK53.jpg);
 }
 #index-slide-image-5{
-	background-image:url(../images/eng_shoot/portrait/DSC_0741.jpg);
+	background-image:url(../images/eng_shoot/portrait/DSC_0741_edited.jpg);
 }
 #location-slide-image-1{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
