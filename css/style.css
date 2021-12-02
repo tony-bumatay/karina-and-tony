@@ -213,6 +213,10 @@ h3,h4,h5,h6{
 	font-family: 'Urbanist', sans-serif;
 }
 
+li {
+	font-family: 'Urbanist', sans-serif;
+}
+
 .travel-heading {
 	font-family: 'Oswald', sans-serif;
 	font-size: 34px;
@@ -1403,6 +1407,10 @@ CUSTOM SECTION GENERAL
 	background-image:url(../images/gallery/marry_me_banner.jpg);
 	background-position:center;
 	height:900px;
+}
+#gallery-banner-image{
+	background-image:url(../images/gallery/DSC_0742-edited.jpg);
+	background-position:top;
 }
 
 /* ----------------------------------------------*/
@@ -4090,7 +4098,7 @@ CUSTOM SECTION MOBILE
 	background-image:url(../images/eng_shoot/portrait/TK53.jpg);
 }
 #index-slide-image-5{
-	background-image:url(../images/eng_shoot/portrait/DSC_0741_edited.jpg);
+	background-image:url(../images/eng_shoot/portrait/TK34_portrait_2.jpg);
 }
 #location-slide-image-1{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
@@ -4099,6 +4107,11 @@ CUSTOM SECTION MOBILE
 #marry_me_banner{
 	background-image:url(../images/gallery/marry_me_portrait.jpg);
 	background-position:center
+}
+
+#gallery-banner-image{
+	background-image:url(../images/gallery/DSC_0741-edited.jpg);
+	background-position:top;
 }
 
 #schedule-text-saturday {
