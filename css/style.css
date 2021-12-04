@@ -200,13 +200,14 @@
 /* 01. GENERAL			 						 */
 /*===============================================*/
 body{
-	font-family: 'Arvo', serif;	
+	font-family: 'Zen Kaku Gothic Antique', serif;	
 	color:#6a6a6a;
 	font-size:15px;
 }
 
 h1,h2{
 	font-family: 'Italiana', serif;
+	letter-spacing: 0.06em;
 }
 
 h3,h4,h5,h6{
@@ -218,8 +219,10 @@ li {
 }
 
 .travel-heading {
-	font-family: 'Oswald', sans-serif;
-	font-size: 34px;
+	font-family: 'Urbanist', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 0.15em;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -253,11 +256,17 @@ h2, .h2{
 }
 
 h3, .h3{
-	font-size:20px;
+	font-size:18px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
 }
 
+
 h4, .h4{
-	font-size:20px;
+	font-size: 20px;
+	/*font-size:16px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;*/
 }
 
 h5, .h5{
@@ -275,7 +284,7 @@ h4.inline, h5.inline, h6.inline{
 }
 
 p{
-	font-family: 'Urbanist', sans-serif;	
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;	
 	font-size:16px;
 	line-height:26px;
 	margin-bottom:25px;
@@ -384,12 +393,16 @@ CUSTOM SECTION GENERAL
 }
 
 .flexslider {
-	margin: 10px 0px;
+	margin: 10px 0px 20px 0px;
 }
 
 #carousel {
 	width: 83%;
-	margin-left: 8.5%;
+	margin: 0px auto 40px auto;
+}
+
+#carousel2 {
+	margin: 0px auto 40px auto;
 }
 
 /* .slides img {
@@ -708,7 +721,8 @@ CUSTOM SECTION GENERAL
 
 #nav-bar{
 	position:relative;
-	height:145px;
+	height: 100px;
+	/*height:145px;*/
 	width:100%;
 	z-index:1000;
 	
@@ -749,7 +763,8 @@ CUSTOM SECTION GENERAL
 
 #nav-bar.top-bar.stick-it{
 	position:fixed;
-	height:145px; 
+	height: 100px;
+	/*height:145px; */
 	width:100%;
 	background-color:#E2D5C5;
 	z-index:1500;
@@ -812,9 +827,12 @@ CUSTOM SECTION GENERAL
 #nav-menu{	
 	list-style-type:none; 
 	margin:0; 
-	padding:45px 0 0 0;
-	font-family: 'Oswald', sans-serif;
-	font-size:25px;
+	/*padding:45px 0 0 0;*/
+	padding:20px 0 0 0;
+	font-family: 'Urbanist', sans-serif;
+	font-weight: 600;
+	font-size:14px;
+	letter-spacing: 0.15em;
 	/* background-color: #AB7971; */
 	/* opacity: .5; */
 	z-index:1000;
@@ -824,7 +842,8 @@ CUSTOM SECTION GENERAL
 /* ----------------------------------------------*/
 #nav-bar.nav-center .logo-wrapper{
 	position:absolute; 
-	margin:auto; 
+	/*margin:auto; */
+	margin: 20px auto;
 	top:0; 
 	bottom:0; 
 	left:0; 
@@ -905,12 +924,16 @@ CUSTOM SECTION GENERAL
 	color:#AB7971;
 }
 
+#home-page .transparent #nav-menu > li a, #photos-page .transparent #nav-menu > li a, #travel-page .transparent #nav-menu > li a{
+	 color:#E2D5C5; 
+}
+
 .transparent #nav-menu > li a:hover{
 	color:#E2D5C5;
 }
 
 .transparent.stick-it #nav-menu > li a{
-	color:#666
+	color:#666 !important;
 }
 
 /* 03.1.2 Additional Class For Nav Center 		 */
@@ -1192,7 +1215,7 @@ CUSTOM SECTION GENERAL
 	margin:35px;
 	margin-bottom:100px;
 	padding:0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Urbanist', sans-serif;
 	font-size:14px;
 	z-index:1000;
 }
@@ -1283,7 +1306,7 @@ CUSTOM SECTION GENERAL
 	background-color:#AB7971; 
 	color:#E2D5C5; 
 	text-align:center; 
-	font-family: 'Arvo', serif;
+	font-family: 'Zen Kaku Gothic Antique', serif;
 }
 
 .css-logo.rounded{
@@ -1487,7 +1510,8 @@ CUSTOM SECTION GENERAL
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
 #save-the-date{
-	font-family: 'Pacifico', cursive; 
+	font-family: 'Italiana', cursive;
+	letter-spacing: 0.06em;
 	-ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
     transform: rotate(-10deg);
@@ -1746,8 +1770,9 @@ CUSTOM SECTION GENERAL
 /* ----------------------------------------------*/
 .title-excerpt{
 	position:relative;
-	background-color:#E2D5C5; 
+	/*background-color:#E2D5C5; */
 	padding:25px;
+	border: solid 1px #E2D5C5;
 }
 
 .title-excerpt .custom-heart-icon{
@@ -1947,8 +1972,10 @@ a.de-button, span.de-button, input[type=submit]{
 	margin:0 auto; 
 	margin-top:20px; 
 	background-color:#E2D5C5; 
-	font-family: 'Oswald', sans-serif; 	
-	border:solid 1px #6a6a6a
+	font-family: 'Urbanist', sans-serif; 	
+	border:solid 1px #6a6a6a;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
 }
 
 a.de-button.outline, span.de-button.outline, input[type=submit].outline{
@@ -2004,7 +2031,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* ----------------------------------------------*/
 .banner-text{
 	display:inline-block;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	margin:auto;
 	margin-top:30px;
 	margin-bottom:30px; 	
@@ -2050,7 +2077,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 .banner-text.withlove{
 	position:relative;
 	display:inline-block;
-	font-family: 'Oswald', sans-serif;  
+	font-family: 'Urbanist', sans-serif;  
 	margin:auto;
 	margin-top:30px;
 	margin-bottom:30px;
@@ -2091,7 +2118,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* 07.2.12 White Box Content Wrapper 			 */
 /* ----------------------------------------------*/
 .white-box-content-wrapper{
-	background-color:#E2D5C5; 
+	/*background-color:#E2D5C5; */
+	border: solid 1px #E2D5C5;
 	padding:40px 40px;
 	margin-bottom:30px;
 }
@@ -2227,19 +2255,23 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 /* 08.2.1 Default								  */
 /*------------------------------------------------*/
-.de-icon.default{
-	color:#6a6a6a;
-}
-
-.de-icon.default.light{
-	color:#E2D5C5;
-}
-
-.de-icon.default.reverse{
+.de-icon .de-icon-star{
+	/*color:#6a6a6a;*/
 	color:#AB7971;
+	opacity: 0.4;
 }
 
-a:hover .de-icon.default, a:hover .de-icon.default.light{
+.de-icon.light .de-icon-star{
+	color:#E2D5C5;
+	opacity: 1;
+}
+
+.de-icon.reverse .de-icon-star{
+	color:#AB7971;
+	opacity: 1;
+}
+
+/*a:hover .de-icon.default, a:hover .de-icon.default.light{
 	color:#AB7971;
 }
 
@@ -2249,7 +2281,7 @@ a:hover .de-icon.default.reverse{
 
 a:hover .de-icon.default.light.reverse{
 	color:#E2D5C5;
-}
+}*/
 
 /* 08.2.2 Circle, Rounded, Square				  */
 /*------------------------------------------------*/
@@ -2771,13 +2803,13 @@ a:hover .de-icon.effect3{
 /* 11.4 Label									 */
 /*-----------------------------------------------*/
 form label{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Urbanist', sans-serif;
 	font-size:14px;
 	font-weight:normal;
 }
 
 .option-label{
-	font-family: 'Arvo', serif;	
+	font-family: 'Zen Kaku Gothic Antique', serif;	
 	color:#6a6a6a;
 	font-size:13px;
 }
@@ -2790,7 +2822,7 @@ form .btn-primary
     padding: 12px 18px;
     margin: 0 15px 5px 15px; 
     border-radius: 0;
-	font-family: 'Arvo', serif;	
+	font-family: 'Zen Kaku Gothic Antique', serif;	
 	color:#6a6a6a;
 	font-size:13px;
   	background-color: #E2D5C5;
@@ -2918,8 +2950,9 @@ form .has-error .btn-primary{
 }
 
 .couple-name{
-	font-family: 'Pacifico', cursive; 
+	font-family: 'Italiana', cursive; 
 	font-size:41px; 
+	letter-spacing: 0.05em;
 	padding-top:100px;
 	color:#E2D5C5; 
 	line-height:41px; 
@@ -2940,13 +2973,15 @@ form .has-error .btn-primary{
 #counting-down{
 	text-align:center; 
 	color:#E2D5C5; 
-	font-family: 'Pacifico';
-	-ms-transform: rotate(-10deg); 
+	font-family: 'Italiana';
+	letter-spacing: 0.06em;
+/*	-ms-transform: rotate(-10deg); 
 	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg);
+	transform: rotate(-10deg);*/
 	padding-right:30px;
 	margin-top:0px;
 	margin-bottom:25px;
+	text-transform: uppercase;
 }
 
 #counting{
@@ -2969,7 +3004,7 @@ form .has-error .btn-primary{
 	border: none;
 	background-color:transparent;
 	color:#E2D5C5;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	font-size:13px;
 }
 
@@ -3017,7 +3052,8 @@ footer .image-divider.fixed-height{
 #thank-you{
 	text-align:center; 
 	color:#E2D5C5; 
-	font-family: 'Pacifico';
+	font-family: 'Italiana';
+	letter-spacing: 0.06em;
 	-ms-transform: rotate(-10deg); 
 	-webkit-transform: rotate(-10deg); 
 	transform: rotate(-10deg);
@@ -3038,7 +3074,9 @@ footer .image-divider.fixed-height{
 
 #footer-couple-name{
 	font-family: 'Urbanist', sans-serif; 
-	font-size:26px; 
+	text-transform: uppercase;
+	font-size:18px; 
+	letter-spacing: 0.15em;
 	color:#E2D5C5; 
 	letter-spacing:3px; 
 	padding: 425px 0px 0px 0px;
@@ -3103,13 +3141,14 @@ footer .image-divider.fixed-height{
 /* 14.1 Slider Section							 */
 /* ----------------------------------------------*/
 #invited{
-	font-family: 'Pacifico', cursive; 
+	font-family: 'Italiana', cursive;
+	letter-spacing: 0.06em;
 	font-size:36px; 
 	margin-top:70px;
 }
 
 #banner-date{
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	letter-spacing:3px; 
 	font-size:14px;
 }
@@ -3128,7 +3167,8 @@ footer .image-divider.fixed-height{
 }
 
 .his-her-name .last-name{
-	font-family: 'Pacifico', cursive; 
+	font-family: 'Italiana', cursive; 
+	letter-spacing: 0.06em;
 	font-size:24px; 
 	display:block; 
 	margin-top:0;
@@ -3181,7 +3221,7 @@ footer .image-divider.fixed-height{
 }
 
 .story-date .date-only{
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	font-size:30px; 
 	color:#E2D5C5; 
 	line-height:30px; 
@@ -3189,7 +3229,7 @@ footer .image-divider.fixed-height{
 }
 
 .story-date .month-year{
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	font-size:16px; 
 	color:#E2D5C5;
 }
@@ -3274,7 +3314,8 @@ footer .image-divider.fixed-height{
 h2#dont-miss-it-title{
 	font-size:42px; 
 	margin-bottom:30px; 
-	font-family: 'Pacifico', cursive;
+	font-family: 'Italiana', cursive;
+	letter-spacing: 0.06em;
 }
 
 .circle-countdown{
@@ -3286,7 +3327,7 @@ h2#dont-miss-it-title{
 .circle-countdown.is-countdown {
 	background-color:transparent;
 	border:none;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 }
 
 .circle-countdown .countdown-amount {
@@ -3357,6 +3398,26 @@ h2#dont-miss-it-title{
 	padding: 140px 0
 }
 
+
+/* ----------------------------------------------*/
+/* 14.12 FAQ Section							 */
+/* ----------------------------------------------*/
+#faq-page h3 {
+	margin-top: 40px;
+}
+
+#accordion h4 {
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	cursor: pointer;
+	line-height: 1.25em;
+}
+
+#accordion li {
+	list-style-type: '+';
+	padding-inline-start: 0.5em;
+}
 
 /*===============================================*/
 /* 15. PLUGIN CUSTOM							 */
@@ -3505,6 +3566,7 @@ button.mfp-close, button.mfp-arrow {
 	height:330px;
 	overflow:auto;
 }
+
 
 .transparent #nav-menu{
 	width:80% !important;
@@ -3782,7 +3844,7 @@ button.mfp-close, button.mfp-arrow {
 }
 
 .story-date .month-year{
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	font-size:16px; 
 	color:#E2D5C5;
 }
@@ -3957,8 +4019,8 @@ p{
 }	
 
 #counting{
-	font-size:55px; 
-	line-height:45px
+	font-size: 55px; 
+	line-height: 45px;
 }
 
 #down{
@@ -4190,7 +4252,8 @@ footer .image-divider.fixed-height{
 #thank-you{
 	text-align:center; 
 	color:#E2D5C5; 
-	font-family: 'Pacifico';
+	font-family: 'Italiana';
+	letter-spacing: 0.06em;
 	-ms-transform: rotate(-10deg); 
 	-webkit-transform: rotate(-10deg); 
 	transform: rotate(-10deg);
@@ -4210,7 +4273,7 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Urbanist', sans-serif; 
 	font-size:15px; 
 	color:#E2D5C5; 
 	letter-spacing:3px; 
