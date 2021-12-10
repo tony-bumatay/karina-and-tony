@@ -214,10 +214,6 @@ h3,h4,h5,h6{
 	font-family: 'Urbanist', sans-serif;
 }
 
-li {
-	font-family: 'Urbanist', sans-serif;
-}
-
 .travel-heading {
 	font-family: 'Urbanist', sans-serif;
 	font-weight: 600;
@@ -364,8 +360,11 @@ CUSTOM SECTION GENERAL
 	width: 100%;
 	height: 588px;
 }
-.about-the{
-	font-size: 18px;
+.about-the-bride{
+	text-align: justify;
+}
+.about-the-groom{
+	text-align: justify;
 }
 .five-stars{
 	margin-top: -20px;
@@ -403,6 +402,10 @@ CUSTOM SECTION GENERAL
 
 #carousel2 {
 	margin: 0px auto 40px auto;
+}
+
+#map-needs-desktop-text {
+	display: none;
 }
 
 /* .slides img {
@@ -1408,19 +1411,19 @@ CUSTOM SECTION GENERAL
 }
 
 #index-slide-image-1{
-	background-image:url(../images/eng_shoot/landscape/TK32_1920_1080.jpg);
+	background-image:url(../images/eng_shoot/landscape/TK21.jpg);
 }
 #index-slide-image-2{
-	background-image:url(../images/eng_shoot/landscape/TK21.jpg);
+	background-image:url(../images/eng_shoot/landscape/DSC_0783.jpg);
 }
 /* #index-slide-image-3{
 	background-image:url(../images/eng_shoot/landscape/TK48.jpg);
 } */
 #index-slide-image-4{
-	background-image:url(../images/eng_shoot/landscape/TK41.jpg);
+	background-image:url(../images/eng_shoot/landscape/TK32_1920_1080.jpg);
 }
 #index-slide-image-5{
-	background-image:url(../images/eng_shoot/landscape/DSC_0783.jpg);
+	background-image:url(../images/eng_shoot/landscape/TK41.jpg);
 }
 #location-slide-image-1{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
@@ -4157,7 +4160,7 @@ CUSTOM SECTION MOBILE
 	background-image:url(../images/eng_shoot/portrait/TK9b.jpg);
 } */
 #index-slide-image-4{
-	background-image:url(../images/eng_shoot/portrait/TK53.jpg);
+	background-image:url(../images/eng_shoot/portrait/dock_photo_edited.jpg);
 }
 #index-slide-image-5{
 	background-image:url(../images/eng_shoot/portrait/TK34_portrait_2.jpg);
@@ -4186,6 +4189,13 @@ CUSTOM SECTION MOBILE
 
 #schedule-text-monday {
 	padding: 0px 0;
+}
+
+#map-needs-desktop-text {
+	display: inline;
+}
+#usa-state-map {
+	display: none;
 }
 
 /* #home-first-heart-divider {
