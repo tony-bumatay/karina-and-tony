@@ -341,8 +341,8 @@ CUSTOM SECTION GENERAL
 }
 
 #home-first-heart-divider {
-	padding-top: 995px;
-	padding-bottom: 20px;
+	padding-top: 645px;
+	padding-bottom: 10px;
 	/* padding-left: 15px;
 	padding-right: 15px; */
 }
@@ -1672,6 +1672,7 @@ CUSTOM SECTION GENERAL
 }
 /* #location-countdown{
 	margin-right: -15px;
+	padding-top: 635px;
 } */
 
 /* 07.1.1 Page Without Slider					 */
@@ -2297,7 +2298,7 @@ a:hover .de-icon.default.light.reverse{
 }
 
 .de-icon.square, .de-icon.circle, .de-icon.rounded{
-	background-color:#6a6a6a;
+	background-color:#AB7971;
 	color:#E2D5C5;
 }
 
@@ -2989,7 +2990,7 @@ form .has-error .btn-primary{
 
 #counting{
 	font-size:65px; 
-	line-height:50px
+	line-height:63px
 }
 
 #down{
@@ -3409,7 +3410,7 @@ h2#dont-miss-it-title{
 	margin-top: 40px;
 }
 
-#accordion h4 {
+#accordion h4, #travel-page h4 {
 	font-family: 'Zen Kaku Gothic Antique', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
@@ -4021,9 +4022,13 @@ p{
 	padding:60px 0;
 }	
 
+/* #location-countdown {
+	padding-top: 0;
+} */
+
 #counting{
 	font-size: 55px; 
-	line-height: 45px;
+	line-height: 53px;
 }
 
 #down{
@@ -4198,9 +4203,10 @@ CUSTOM SECTION MOBILE
 	display: none;
 }
 
-/* #home-first-heart-divider {
-	padding: 10px 15px;
-} */
+#home-first-heart-divider {
+	padding-top: 10px;
+}
+
 .heart-divider.index-divider{
 	padding-top: 0px;
 }
