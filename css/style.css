@@ -375,7 +375,7 @@ CUSTOM SECTION GENERAL
 	margin-bottom: 10px;
 }
 
-.de-icon.de-icon.medium-size{
+.de-icon.star.medium-size.inline{
 	width: 30px;
 }
 
@@ -4228,6 +4228,10 @@ p {
 
 #home-page .transparent #nav-menu > li a, #photos-page .transparent #nav-menu > li a, #travel-page .transparent #nav-menu > li a{
 	color:#AB7971; 
+}
+
+.divider-wrapper{
+	padding:10px 0;
 }
 
 }
