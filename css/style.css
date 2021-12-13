@@ -4217,6 +4217,19 @@ p {
 	margin-bottom: 0px;
 }
 
+.star-card-title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#nav-bar.nav-center .logo-wrapper{
+	margin:auto;
+}
+
+#home-page .transparent #nav-menu > li a, #photos-page .transparent #nav-menu > li a, #travel-page .transparent #nav-menu > li a{
+	color:#AB7971; 
+}
+
 }
 
 
