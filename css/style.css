@@ -341,16 +341,15 @@ CUSTOM SECTION GENERAL
 }
 
 #home-first-heart-divider {
-	padding-top: 645px;
+	padding-top: 950px;
 	padding-bottom: 10px;
-	/* padding-left: 15px;
-	padding-right: 15px; */
 }
 .heart-divider.index-divider{
 	padding-top: 30px;
 }
-.last-heart-divider{
+.heart-divider.last-heart-divider{
 	padding: 20px 0px;
+	margin-top: 0px;
 }
 .external-link{
 	color: #0000FF;
@@ -408,14 +407,6 @@ CUSTOM SECTION GENERAL
 	display: none;
 }
 
-/* .slides img {
-	height: 400px;
-	width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .large-slider .slides img {
 	height: 500px;
 	width: auto;
@@ -427,6 +418,22 @@ CUSTOM SECTION GENERAL
 .flex-caption {
 	text-align: center;
 	margin-bottom: 0px;
+}
+
+a.de-button.outline.lodging-preference-button {
+	background-color: #AB7971;
+	margin-top: 20ox;
+	margin-bottom: 20px;
+}
+
+#location-countdown {
+	height: 900px;
+    width: 100%;
+}
+
+.ogontz-blurb.white-box-content-wrapper {
+	padding-top: 27px;
+	padding-bottom: 27px;
 }
 
 /* .usa-state-map {
