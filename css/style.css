@@ -341,7 +341,7 @@ CUSTOM SECTION GENERAL
 }
 
 #home-first-heart-divider {
-	padding-top: 950px;
+	padding-top: 660px;
 	padding-bottom: 10px;
 }
 .heart-divider.index-divider{
@@ -944,6 +944,7 @@ a.de-button.outline.lodging-preference-button {
 
 .transparent.stick-it #nav-menu > li a{
 	color:#666 !important;
+	text-align: center;
 }
 
 /* 03.1.2 Additional Class For Nav Center 		 */
@@ -1419,9 +1420,11 @@ a.de-button.outline.lodging-preference-button {
 
 #index-slide-image-1{
 	background-image:url(../images/eng_shoot/landscape/TK21.jpg);
+	background-position: top center !important;
 }
 #index-slide-image-2{
 	background-image:url(../images/eng_shoot/landscape/DSC_0783.jpg);
+	background-position: top center !important;
 }
 /* #index-slide-image-3{
 	background-image:url(../images/eng_shoot/landscape/TK48.jpg);
@@ -1431,6 +1434,7 @@ a.de-button.outline.lodging-preference-button {
 }
 #index-slide-image-5{
 	background-image:url(../images/eng_shoot/landscape/TK41.jpg);
+	background-position: top center !important;
 }
 #location-slide-image-1{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
@@ -3288,6 +3292,80 @@ footer .image-divider.fixed-height{
 }
 
 /* ----------------------------------------------*/
+/* 14.3.2 Timeline Section						 */
+/* ----------------------------------------------*/
+
+.section_timeline {
+	margin-top: 80px;
+}
+
+.wrapper_timeline-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 40px;
+	grid-row-gap: 40px;
+	width: 60%;
+	margin: 30px auto;
+}
+
+.wrapper_timeline-circle {
+	width: 80%;
+	height: 0;
+	padding-top: 80%;
+	border-radius: 100%;
+	background-color: #AB7971;
+	position: relative;
+}
+
+.timeline-circle-text {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	box-sizing: content-box;
+	position: absolute;
+	width: 100%;
+	top:0;
+	bottom: 0;
+	text-align: center;
+}
+
+.timeline-circle-text h3 {
+	font-size: 24px;
+	color: #E2D5C5;
+}
+
+@media screen and (max-width: 1100px) {
+	/* .wrapper_timeline-grid {
+
+	} */
+	.wrapper_timeline-circle {
+		width: 100%;
+		padding-top: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.wrapper_timeline-grid {
+		width:80%;
+
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.wrapper_timeline-grid {
+		grid-column-gap: 20px;
+		grid-row-gap: 20px;
+	}
+	.timeline-circle-text h3 {
+		font-size: 18px;
+	}
+}
+
+
+
+
+/* ----------------------------------------------*/
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
 #where-when{
@@ -3496,7 +3574,6 @@ button.mfp-close, button.mfp-arrow {
 	width:100%;
 }
 
-
 /* ----------------------------------------------*/
 /* 04.1 Menuicon Bar Width & Position	 		 */
 /* ----------------------------------------------*/
@@ -3516,7 +3593,7 @@ button.mfp-close, button.mfp-arrow {
 
 }
 
-@media screen and (max-width: 991px) {	
+@media screen and (max-width: 1190px) {	
 /*===============================================*/
 /* 02. NAV BAR 	 							 	 */
 /*===============================================*/
@@ -3600,6 +3677,7 @@ button.mfp-close, button.mfp-arrow {
 #nav-bar.nav-right .logo-wrapper{
 	position:relative;
 	float:left;	
+	margin: auto;
 }
 
 
@@ -3756,7 +3834,9 @@ button.mfp-close, button.mfp-arrow {
 #main-slider.flexslider:hover .flex-next { opacity:0.4; right: 20px; }
 #main-slider.flexslider .flex-direction-nav .flex-prev { opacity:0.4; left: 20px; }
 #main-slider.flexslider .flex-direction-nav .flex-next { opacity:0.4; right: 20px; }
+}
 
+@media screen and (max-width: 991px) {	
 
 /* ----------------------------------------------*/
 /* 07.1 PAGE LAYOUT						 		 */
@@ -4176,6 +4256,7 @@ CUSTOM SECTION MOBILE
 }
 #index-slide-image-5{
 	background-image:url(../images/eng_shoot/portrait/TK34_portrait_2.jpg);
+	background-position: 50%;
 }
 #location-slide-image-1{
 	background-image:url(../images/venue/ogontz_ceremony_birds_eye.jpg);
