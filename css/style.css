@@ -2988,7 +2988,7 @@ form .has-error .btn-primary{
 #counting-down{
 	text-align:center; 
 	color:#E2D5C5; 
-	font-family: 'Italiana';
+	font-family: 'Urbanist', sans-serif; 
 	letter-spacing: 0.06em;
 /*	-ms-transform: rotate(-10deg); 
 	-webkit-transform: rotate(-10deg); 
