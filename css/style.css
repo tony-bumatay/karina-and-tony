@@ -684,6 +684,22 @@ a.de-button.outline.lodging-preference-button {
 	/* width: 80%; */
 }
 
+#timelineModal {
+	margin-top: 125px;
+	/* width: 80%;
+	 */
+}
+
+.timeline-modal-caption {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.timeline-modal-caption2 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 #modal-image {
     width: auto;
     height: 560px;
@@ -3301,7 +3317,7 @@ footer .image-divider.fixed-height{
 
 .wrapper_timeline-grid {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 40px;
 	grid-row-gap: 40px;
