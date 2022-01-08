@@ -458,6 +458,11 @@ a.de-button.outline.lodging-preference-button {
     height: 29px;
 }
 
+.pin:hover {
+	width: 16px;
+	height: 40px;
+}
+
 #pin-palos-verdes {
 	position: absolute;
     top: 362px;
@@ -974,7 +979,7 @@ a.de-button.outline.lodging-preference-button {
 }
 
 .split-margin{
-	margin-left:150px;
+	margin-left:127px;
 }
 
 /* ----------------------------------------------*/
@@ -2019,6 +2024,12 @@ a.de-button.reverse, span.de-button.reverse, input[type=submit].reverse{
 	background-color:#AB7971; 
 	border:solid 1px #AB7971;
 	color:#E2D5C5;
+}
+
+#stay-at-ogontz-button {
+	background-color:#E2D5C5;
+	color:#000000;
+	opacity: 0.6;
 }
 
 a.de-button.small, span.de-button.small, input[type=submit].small{
@@ -3669,8 +3680,12 @@ button.mfp-close, button.mfp-arrow {
 	background-color:#E2D5C5;
 	height:330px;
 	overflow:auto;
+	/* color:#AB7971; */
 }
 
+#home-page .transparent #nav-menu > li a, #photos-page .transparent #nav-menu > li a, #travel-page .transparent #nav-menu > li a{
+	color:#AB7971; 
+}
 
 .transparent #nav-menu{
 	width:80% !important;
